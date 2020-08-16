@@ -22,10 +22,10 @@
             border-radius:100px;
         }
         .me{
-            color: green;
+            color:goldenrod;
             font-size: 100%;
             font-family: cursive;
-            background-color: antiquewhite;
+            background:linear-gradient(to right,rgba(0,0,255,0.5),rgba(0,0,255,1));
             padding: 10px 5px 7px 3em;
             border-width:10px 15px 5px 10px;
             border-color:aqua;
@@ -43,6 +43,21 @@
         }
         p{
             mergin:0;
+        }
+        .FamilyList{
+            list-style: upper-roman;
+        }
+        .FoodList{
+            list-style:none;
+            padding:0;
+            margin:0;
+        }
+        .FoodList li{
+            background-image:url(images/kml_square.jpg);
+            background-size: 20px 20px;
+            background-repeat:no-repeat;
+            background-position: 0px center;
+            padding-left: 25px;
         }
     </style>
 </head>
@@ -66,20 +81,31 @@
             Pai Kat is our pet, and my wife loves it very much.
         </p>
     </div> 
-        <ol>
-        <li>
-            <dt>KML</dt>
-            <dd>- Kaungmalay</dd>
-        </li>
-        <li>
-            <dt>KO KO</dt>
-            <dd>- Kaungmalay's Husband</dd>
-        </li>
-        <li>
-            <dt>Pai Kat</dt>
-            <dd>-Kaungmalay's Pet</dd>
-        </li>
-    </ol>
+        <ol class="FamilyList">
+            <li>
+                <dt>KML</dt>
+                <dd>- Kaungmalay</dd>
+            </li>
+            <li>
+                <dt>KO KO</dt>
+                <dd>- Kaungmalay's Husband</dd>
+            </li>
+            <li>
+                <dt>Pai Kat</dt>
+                <dd>-Kaungmalay's Pet</dd>
+            </li>
+        </ol>
+        <ul class="FoodList">
+            <li>
+                Apple  
+            </li>
+            <li>
+                Banana
+            </li>
+            <li>
+                Carrot
+            </li>
+        </ol>    
 </body>
 
 </html>
